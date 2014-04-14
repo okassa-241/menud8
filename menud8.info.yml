@@ -1,0 +1,6 @@
+name: Example Menu
+type: module
+version: VERSION
+description: Menu options example
+core: 8.x
+package: Examples D8
