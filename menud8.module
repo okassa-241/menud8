@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Contains hooks for menud8
+ */
+
+/**
+ * Implements hook_help().
+ */
+
+function menud8_help($path, $arg) {
+
+  switch ($path) {
+    case 'admin/help#menud8':
+      $output = 'Menu options example';
+      return $output;
+    break;
+  }
+}
+
+/**
+ * Implements hook_permission().
+ */
+function menud8_permission() {
+  return array(
+    'greeting' => array(
+      'title' => t('Show a greeting'),
+    ),
+    'farewell' => array(
+      'title' => t('Show a farewell'),
+    ),
+ );
+}

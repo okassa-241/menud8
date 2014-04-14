@@ -1,0 +1,23 @@
+menud8.example-menu:
+  path: '/example-menu'
+  defaults:
+    _content: '\Drupal\menud8\Controller\DefaultController::getAction'
+    _title: 'Example menu'
+  requirements:
+    _permission: 'access administration pages'
+
+menud8.greeting:
+  path: '/greeting'
+  defaults:
+    _content: '\Drupal\menud8\Controller\DefaultController::greetingAction'
+    _title: 'Greeting'
+  requirements:
+    _permission: 'greeting'
+
+menud8.farewell:
+  path: '/farewell'
+  defaults:
+    _content: '\Drupal\menud8\Controller\DefaultController::farewellAction'
+    _title: 'Farewell'
+  requirements:
+    _permission: 'farewell'

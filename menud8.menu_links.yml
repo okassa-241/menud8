@@ -1,0 +1,17 @@
+menud8.example-menu:
+  route_name: menud8.example-menu
+  title: 'Example menu'
+  description: 'Show a example menu and items'
+  menu_name: example-menu
+
+menud8.greeting:
+  title: Greeting
+  parent: menud8.example-menu
+  description: 'Greeting, very simple greeting'
+  route_name: menud8.greeting
+
+menud8.farewell:
+  title: Farewell
+  parent: menud8.example-menu
+  description: 'Farewell, very simple farewell'
+  route_name: menud8.farewell

@@ -1,0 +1,7 @@
+id: example-menu
+label: 'Example menu'
+description: 'Example menu summary'
+status: true
+langcode: en
+dependencies: {  }
+locked: false
