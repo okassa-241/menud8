@@ -1,4 +1,4 @@
-Drupal 8 menu exmple create
+Drupal 8 menu example create
 ==============
 
 This module is for study programing Drupal 8 modules. 
