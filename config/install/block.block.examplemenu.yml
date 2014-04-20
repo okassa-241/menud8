@@ -1,0 +1,32 @@
+id: examplemenu
+weight: null
+status: true
+langcode: en
+dependencies:
+  entity:
+    - system.menu.example-menu
+  module:
+    - system
+  theme:
+    - bartik
+theme: bartik
+region: sidebar_first
+plugin: 'system_menu_block:example-menu'
+settings:
+  label: 'Eample menu'
+  provider: system
+  label_display: visible
+  cache:
+    max_age: -1
+    contexts: {  }
+  admin_label: ''
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'
