@@ -13,7 +13,7 @@ theme: bartik
 region: sidebar_first
 plugin: 'system_menu_block:example-menu'
 settings:
-  label: 'Eample menu'
+  label: 'Example menu'
   provider: system
   label_display: visible
   cache:
